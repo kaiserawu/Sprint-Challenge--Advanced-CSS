@@ -6,3 +6,14 @@
     align-items: @align;
     align-content: @align;
 }
+
+.button-style (@height: 35px; @width: 100px; @color: @porcelain; @bg: @btn-bg-color; @radius: 5px) {
+    height: @height;
+    width: @width;
+    color: @color;
+    background-color: @bg;
+    border-radius: @radius;
+    font-size: 1.8rem;
+
+    .flex();
+}
