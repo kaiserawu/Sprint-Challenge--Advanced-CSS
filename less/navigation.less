@@ -1,1 +1,19 @@
-// Navigation code here
+.nav {
+    .flex(center, center);
+    flex-direction: column;
+    padding: 15px 0;
+    background-color: @nav-bg;
+
+    nav {
+        max-width: 450px;
+        width: 100%;
+        .flex(space-evenly, center);
+        padding-top: 15px;
+        margin: 0 25%;
+
+        a {
+            text-decoration: none;
+            color: @nav-font;
+        }
+    }
+}
