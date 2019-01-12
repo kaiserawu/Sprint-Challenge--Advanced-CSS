@@ -62,7 +62,12 @@
       }
 
       .btn {
-        .button-style()
+        .button-style();
+        
+        &:hover {
+          color: @btn-bg-color;
+          background-color: @porcelain;
+        }
       }
     }
 
